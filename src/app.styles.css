@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.metrics{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

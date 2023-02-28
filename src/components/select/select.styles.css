@@ -1,0 +1,24 @@
+select {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  font-size: 16px;
+  padding: 8px;
+  position: relative;
+  width: 200px;
+}
+
+select option {
+  background-color: #fff;
+  color: #333;
+  padding: 8px;
+}
+
+select option::before {
+  content: "• ";
+}
+
+select option:checked::before {
+  content: "•";
+}
